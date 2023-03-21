@@ -1,3 +1,7 @@
+body {
+  background-color: whitesmoke;
+}
+
 .App {
   text-align: center;
 }
@@ -28,6 +32,97 @@
   color: #61dafb;
 }
 
+.word {
+  margin: auto;
+  color: white;
+  font: 700 normal 2.5em 'tahoma';
+  text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    padding: 0 0 100px 0;
+  }
+
+  .typing-word {
+    position: absolute;
+    top: 280px;
+  }
+}
+
+@media only screen and (min-width: 339px) {
+  .container {
+    padding: 0 10px 100px 10px;
+  }
+
+  .typing-word {
+    position: absolute;
+    top: 280px;
+    left: 5%;
+  }
+}
+
+@media only screen and (min-width: 790px) {
+  .container {
+    padding: 0 100px 100px 100px;
+  }
+
+  .typing-word {
+    position: absolute;
+    top: 280px;
+    left: 10%;
+  }
+}
+
+@media only screen and (min-width: 791px) and (max-width: 1200px) {
+  .container {
+    padding: 0 200px 100px 200px;
+  }
+
+  .typing-word {
+    position: absolute;
+    top: 280px;
+    left: 10%;
+  }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1500px) {
+  .container {
+    padding: 0 250px 100px 250px;
+  }
+
+  .typing-word {
+    position: absolute;
+    top: 280px;
+    left: 20%;
+  }
+}
+
+@media only screen and (min-width: 1501px) and (max-width: 1800px) {
+  .container {
+    padding: 0 350px 100px 350px;
+  }
+
+  .typing-word {
+    position: absolute;
+    top: 280px;
+    left: 25%;
+  }
+}
+
+@media only screen and (min-width: 1801px){
+  .container {
+    padding: 0 500px 100px 500px;
+  }
+
+  .typing-word {
+    position: absolute;
+    top: 280px;
+    left: 32%;
+  }
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +131,5 @@
     transform: rotate(360deg);
   }
 }
+
+
