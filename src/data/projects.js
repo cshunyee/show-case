@@ -1,9 +1,11 @@
 import { Empty } from "antd";
 import bimVideo from "../static/bim.mov";
 import wccVideo from "../static/wcc.mov";
+import hrmsVideo from "../static/hrms.mov";
 
 export const projectList = [
   {
+    id: "wcc",
     title: "Field Service CRM (Website and Mobile)",
     description: [
       "Connect with customer, transform business needed into technical points",
@@ -38,6 +40,7 @@ export const projectList = [
     ),
   },
   {
+    id: "bim",
     title: "BIM Connection (Website)",
     description: [
       "A web platform that visualize 3D BIM model",
@@ -66,6 +69,7 @@ export const projectList = [
     ),
   },
   {
+    id: "itpt2",
     title: "Singapore LTA Smart Transport System II (Website)",
     description: [
       "Support GIS team in developing map related features",
@@ -96,7 +100,8 @@ export const projectList = [
     ),
   },
   {
-    title: "Finansial System (Website)",
+    id: "fs",
+    title: "Financial System (Website)",
     description: [
       "Develop in-house application to help on daily operation of Accountants",
       "Design and structure the Tax module",
@@ -104,7 +109,7 @@ export const projectList = [
       "Process and generate Excel file for all tax report filled in the application",
     ],
     comment: (
-      <span>This is the very first project since I have fresh graduated.</span>
+      <span>This is the second project after I have master in the first project.</span>
     ),
     date: "July 2020 - Aug 2021",
     skill: [
@@ -122,6 +127,7 @@ export const projectList = [
     ),
   },
   {
+    id: "hrms",
     title: "Human Resource Management System (Website)",
     description: [
       "Develop in-house application to help on daily operation of HR",
@@ -130,7 +136,11 @@ export const projectList = [
       "Create SSO Main login page for company, so that user can access all company software directly without login again",
     ],
     comment: (
-      <span>This is the very first project since I have fresh graduated.</span>
+      <span>
+        This is the very first project since I have fresh graduated. It's fun to
+        develop such useful application.
+        <br />
+      </span>
     ),
     date: "July 2020 - Aug 2021",
     skill: [
@@ -144,7 +154,7 @@ export const projectList = [
       "Bootstrap",
     ],
     link: (
-      <Empty style={{ padding: 200 }} description="No showcase available =(" />
+      <video muted src={hrmsVideo} width="100%" height="100%" controls></video>
     ),
   },
 ];

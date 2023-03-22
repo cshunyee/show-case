@@ -6,7 +6,8 @@ const ProjectList = () => {
     <>
       {projectList.map((project, i) => (
         <ProjectItem
-          key={`project_${i}`}
+          id={project.id}
+          key={`project_${project.id}`}
           index={i}
           title={project.title}
           description={project.description}

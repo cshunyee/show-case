@@ -1,14 +1,27 @@
-import { GithubFilled, LinkedinFilled, UserOutlined } from "@ant-design/icons";
-import { Anchor, Avatar, Card, Divider } from "antd";
+import {
+  CheckCircleTwoTone,
+  GithubFilled,
+  HomeTwoTone,
+  LinkedinFilled,
+  SafetyCertificateTwoTone,
+  UserOutlined,
+} from "@ant-design/icons";
+import { Anchor, Avatar, Card, Divider, Tag } from "antd";
 import { Container, Row } from "react-bootstrap";
 import ProjectList from "../../components/ProjectList";
 import bgPic from "./bg.jpg";
 import profile from "./profile.JPG";
 import TypingWord from "../../components/TypingWord";
 import AnchorLink from "antd/es/anchor/AnchorLink";
+import SkillList from "../../components/SkillList";
 
 const Home = () => {
-  const wordList = ["Hello,", "Welcome to my portfolio show case!"];
+  const wordList = [
+    "Hello,",
+    "Welcome to my portfolio show case!",
+    "So happy to see you!",
+  ];
+
   return (
     <>
       <div
@@ -32,18 +45,16 @@ const Home = () => {
         <img src={bgPic} width="100%" height="100%" />
       </div>
 
-      <Anchor
-        style={{
-          position: "absolute",
-          left: 10,
-        }}
-      >
+      <Anchor className="menu-achor">
         <AnchorLink href="#topContainer" title="Portfolio" />
-        <AnchorLink href="#projectList" title="Project List" />
-        <AnchorLink href="#API" title="API">
-          <AnchorLink href="#Anchor-Props" title="Anchor Props" />
-          <AnchorLink href="#Link-Props" title="Link Props" />
+        <AnchorLink href="#projectList" title="Project List">
+          <AnchorLink href="#wcc" title="Field Service CRM" />
+          <AnchorLink href="#bim" title="BIM Connection" />
+          <AnchorLink href="#itpt2" title="ITPT 2" />
+          <AnchorLink href="#fs" title="FS" />
+          <AnchorLink href="#hrms" title="HRMS" />
         </AnchorLink>
+        <AnchorLink href="#skillList" title="Skill Set" />
       </Anchor>
 
       <Container className="container">
@@ -67,11 +78,37 @@ const Home = () => {
           }}
         >
           <div style={{ textAlign: "center" }}>
-            <h3>Cheah Shun Yee</h3>
-            <LinkedinFilled style={{ marginRight: 8 }} />
-            <GithubFilled />
+            <h3>Cheah Shun Yee </h3>
+            <Row style={{ marginBottom: 8 }}>
+              <Tag>
+                <HomeTwoTone style={{ marginRight: 4 }} />
+                Singapore
+              </Tag>
+              <Tag>
+                <SafetyCertificateTwoTone style={{ marginRight: 4 }} />
+                Permanent Residence
+              </Tag>
+            </Row>
+            <a
+              href="https://www.linkedin.com/in/shun-yee-cheah-107a61169/"
+              target="_blank"
+              style={{ color: "black" }}
+            >
+              <LinkedinFilled style={{ marginRight: 8 }} />
+            </a>
+            <a
+              href="https://github.com/cshunyee"
+              target="_blank"
+              style={{ color: "black" }}
+            >
+              <GithubFilled />
+            </a>
 
-            <Divider orientation="center" orientationMargin={4}>
+            <Divider
+              orientation="center"
+              orientationMargin={4}
+              style={{ marginBottom: 24 }}
+            >
               Sofeware Developer
             </Divider>
             <p
@@ -104,6 +141,17 @@ const Home = () => {
         </Divider>
 
         <ProjectList />
+
+        <Divider
+          orientation="center"
+          orientationMargin={4}
+          style={{ marginBottom: 24 }}
+          id="skillList"
+        >
+          Skill List
+        </Divider>
+
+        <SkillList />
 
         <div style={{ textAlign: "center", paddingTop: 50 }}>
           <small>© cshunyee 2023 =)</small>

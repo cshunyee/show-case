@@ -5,16 +5,16 @@ import { Col, Row } from "react-bootstrap";
 import profile from "../pages/Home/profile.JPG";
 
 const ProjectItem = ({
+  id,
   title,
   description,
   comment,
   date,
   skill,
   link,
-  index,
 }) => {
   return (
-    <div style={{ marginBottom: 48 }}>
+    <div style={{ padding: "48px 0" }} id={id}>
       <Row style={{ display: "flex", justifyContent: "space-between" }}>
         <Col xs={7} style={{ display: "flex", alignContent: "center" }}>
           <Avatar
