@@ -7,12 +7,14 @@ const SkillList = () => {
     ["CSS", 4],
     ["JavaScript", 4],
     ["React", 4],
+    ["Bootstrap", 4],
+    ["Antd Design", 5],
     ["NextJS", 3],
     ["NodeJS", 3],
     ["React Native", 3],
     ["Python", 4],
-    ["Bootstrap", 4],
-    ["Antd Design", 5],
+    ["Django", 3],
+    ["SQL", 3]
   ];
   return (
     <>
