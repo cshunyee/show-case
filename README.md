@@ -1,1 +1,1 @@
-### Visit at https://show-case-chi.vercel.app/#skillList
+##### Visit at https://show-case-chi.vercel.app
