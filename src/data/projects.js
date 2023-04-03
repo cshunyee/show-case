@@ -1,12 +1,13 @@
 import { Empty } from "antd";
 import bimVideo from "../static/bim.mov";
 import wccVideo from "../static/wcc.mov";
+import wccMobileVideo from "../static/wcc_mobile.mov";
 import hrmsVideo from "../static/hrms.mov";
 
 export const projectList = [
   {
     id: "wcc",
-    title: "Field Service CRM (Website and Mobile)",
+    title: "Field Service CRM (Website)",
     description: [
       "Connect with customer, transform business needed into technical points",
       "Understand customer requirements and transform into application and function design",
@@ -37,6 +38,44 @@ export const projectList = [
     ],
     link: (
       <video muted src={wccVideo} width="100%" height="100%" controls></video>
+    ),
+  },
+  {
+    id: "wcc_mobile",
+    title: "Field Service CRM (Mobile)",
+    description: [
+      "Connect with customer, transform business needed into technical points",
+      "Show mobile user (mainly the engineer) of their cases and parts needed.",
+      "Did the map part including showing the cases information and indicate the routing.",
+      "Design mock up for this mobile application",
+      "Develop application from scratch using React Native and Mapbox SDK",
+    ],
+    comment: (
+      <span>
+        Did this mobile version app for the field service application. <br />
+        Helps the engineer to manage their cases and display the best route for
+        them.
+      </span>
+    ),
+    date: "Sep 2022",
+    skill: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "React Native",
+      "Python",
+      "Bootstrap",
+      "Antd Design",
+    ],
+    link: (
+      <video
+        muted
+        src={wccMobileVideo}
+        width="100%"
+        height="100%"
+        controls
+      ></video>
     ),
   },
   {
@@ -109,7 +148,9 @@ export const projectList = [
       "Process and generate Excel file for all tax report filled in the application",
     ],
     comment: (
-      <span>This is the second project after I have master in the first project.</span>
+      <span>
+        This is the second project after I have master in the first project.
+      </span>
     ),
     date: "July 2020 - Aug 2021",
     skill: [
