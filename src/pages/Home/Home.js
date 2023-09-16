@@ -109,7 +109,7 @@ const Home = () => {
               orientationMargin={4}
               style={{ marginBottom: 24 }}
             >
-              Sofeware Developer
+              Software Developer
             </Divider>
             <p
               style={{
