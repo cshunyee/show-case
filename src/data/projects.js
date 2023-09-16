@@ -3,8 +3,41 @@ import bimVideo from "../static/bim.mov";
 import wccVideo from "../static/wcc.mov";
 import wccMobileVideo from "../static/wcc_mobile.mov";
 import hrmsVideo from "../static/hrms.mov";
+import oneTwoThreerfVideo from "../static/123rf.mov";
 
 export const projectList = [
+  {
+    id: "123rf",
+    title: "123RF (Website)",
+    description: [
+      "Developed a custom UI library that increased developer productivity and code reuse",
+      "Works with designer and transfer Figma to real website pages.",
+      "Build responsive website in desktop, tablet and mobile view.",
+      "Experienced project structure which is in multi-repository and connected with nginx routing",
+      "Works in agile environment and communicate well within a team",
+    ],
+    comment: (
+      <span>
+        Joined as a frontend developer and work together remotely with Malaysia's teammate.<br />
+        Learn how's a website works with multiple repository and the work flow while involving multiple team working together which may cause the conflict.
+      </span>
+    ),
+    date: "June 2023",
+    skill: [
+      "HTML",
+      "CSS",
+      "SASS",
+      "JavaScript",
+      "React",
+      "NextJS",
+      "Python",
+      "Bootstrap",
+      "Docker",
+    ],
+    link: (
+      <video muted src={oneTwoThreerfVideo} width="100%" height="100%" controls></video>
+    ),
+  },
   {
     id: "wcc",
     title: "Field Service CRM (Website)",
