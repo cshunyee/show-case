@@ -1,18 +1,25 @@
 const skillList = [
-    ["HTML",          100],
-    ["Antd Design",   100],
-    ["CSS / SCSS",     80],
-    ["JavaScript",     80],
-    ["React.js",       80],
-    ["Next.js",        80],
-    ["Bootstrap",      80],
-    ["Python",         80],
-    ["Node.js",        60],
-    ["React Native",   60],
-    ["Django",         60],
-    ["SQL",            60],
-];
+    ['React.js', 90],
+    ['Next.js', 90],
+    ['JavaScript', 85],
+    ['HTML / CSS', 85],
 
+    ['API Integration', 85],
+    ['Webhooks', 80],
+    ['System Integration', 80],
+    ['Production Debugging', 80],
+    ['Node.js', 75],
+    ['SQL', 75],
+
+    ['Payment Systems', 75],
+    ['VAT / Tax Logic', 70],
+
+    ['Python', 70],
+    ['Django', 65],
+
+    ['React Native', 60],
+    ['Antd Design', 60],
+];
 const SkillList = () => {
     return (
         <div className="pf-skills-grid">

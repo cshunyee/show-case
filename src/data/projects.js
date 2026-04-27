@@ -17,6 +17,7 @@ export const projectList = [
             'Worked on payment, billing and tax-related flows including Stripe, PayPal, VAT handling and reverse charge logic',
             'Supported system integrations, debugging and production issue resolution across frontend, backend APIs and external services',
             'Collaborated with cross-functional teams including design, backend, QA, support and operations in an agile environment',
+            'Worked on features that directly impact revenue, including payment flows, billing logic and tax handling (VAT)',
         ],
         comment: (
             <span>

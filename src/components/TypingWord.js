@@ -1,5 +1,5 @@
-import $ from "jquery";
-import { useEffect } from "react";
+import $ from 'jquery';
+import { useEffect } from 'react';
 
 const TypingWord = ({ wordList }) => {
     var words = wordList,
@@ -34,12 +34,13 @@ const TypingWord = ({ wordList }) => {
             if (skip_count === 0) {
                 forwards ? offset++ : offset--;
             }
-            $(".pf-typing").text(part);
+            $('.pf-typing').text(part);
         }, speed);
     };
 
     useEffect(() => {
-        $(document).ready(() => wordflick());
+        wordflick();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     return <p className="pf-typing"></p>;

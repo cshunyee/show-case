@@ -42,24 +42,20 @@ const Home = () => {
                         <p className="pf-hero__eyebrow">Portfolio</p>
                         <h1 className="pf-hero__name">Cheah Shun Yee</h1>
                         <p className="pf-hero__subtitle">
-                            Software Developer &nbsp;·&nbsp; Singapore PR
+                            Full-stack Engineer specializing in Payments,
+                            Billing & Tax Systems &nbsp;·&nbsp; Singapore PR
                         </p>
                         <p className="pf-hero__bio">
-                            Full-stack engineer with hands-on experience
-                            building and maintaining production web
-                            applications, with a strong focus on payment
-                            systems, billing logic, and tax handling (VAT).
-                            Experienced in translating business requirements
-                            into scalable technical solutions, including API
-                            integrations, webhook-based workflows, and system
-                            reliability improvements. Contributed to
-                            revenue-impacting features such as payment flows,
-                            subscription logic, and operational dashboards.
-                            Proficient in React, Next.js, and backend
-                            integrations, with exposure to real-world financial
-                            systems and complex edge case handling. Comfortable
-                            working across frontend, backend coordination, and
-                            cross-functional teams in fast-paced environments.
+                            I am a full-stack engineer with experience building
+                            production web applications, with a strong focus on
+                            payment systems, billing logic and VAT handling. My
+                            work involves integrating APIs, handling real-world
+                            edge cases in financial systems, and ensuring system
+                            reliability through webhook-based workflows and
+                            fallback mechanisms. I enjoy working on
+                            business-critical systems where technical decisions
+                            directly impact revenue, user experience, and
+                            operational efficiency.
                         </p>
                         <div className="pf-hero__tags">
                             {[
