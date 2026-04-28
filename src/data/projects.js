@@ -77,7 +77,7 @@ export const projectList = [
     },
     {
         id: 'jjvc',
-        title: 'JJVC Church Management System (Website)',
+        title: 'JJVC Church Management System (Showing Dev Version Here)',
         description: [
             'Built a full church management system from scratch',
             'Features include attendance tracking for Friday and Sunday services',
@@ -93,7 +93,7 @@ export const projectList = [
         ),
         date: '2024',
         skill: ['Next.js', 'React', 'Firebase', 'Firestore'],
-        url: 'https://www.jjvcchurch.com',
+        url: 'https://jjvchurch-dev.vercel.app/',
         link: null,
     },
     {
