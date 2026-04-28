@@ -100,11 +100,11 @@ export const projectList = [
         id: '123rf',
         title: '123RF (Website)',
         description: [
-            'Developed a custom UI library that increased developer productivity and code reuse',
-            'Works with designer and transfer Figma to real website pages.',
-            'Build responsive website in desktop, tablet and mobile view.',
-            'Experienced project structure which is in multi-repository and connected with nginx routing',
-            'Works in agile environment and communicate well within a team',
+            'Led a team of 5 to deliver a full-stack CRM system, taking ownership from concept to production',
+            'Worked directly with clients to identify pain points and translate them into product features',
+            'Designed and developed user-focused solutions, balancing business requirements with technical feasibility',
+            'Delivered features iteratively, incorporating feedback from real users to improve usability and functionality',
+            'Coordinated across frontend, backend, and QA teams to ensure timely and high-quality delivery',
         ],
         comment: (
             <span>
